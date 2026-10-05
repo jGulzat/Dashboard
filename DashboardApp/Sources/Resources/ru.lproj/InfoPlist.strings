@@ -1,0 +1,17 @@
+/*
+  InfoPlist.strings
+  Dashboard
+
+  Created by Gulzat Zheenbek kyzy on 15/10/24.
+  
+*/
+
+"NSCameraUsageDescription" = "Это приложение требует доступ к камере.";
+"NSPhotoLibraryUsageDescription" = "Это приложение требует доступ к вашей фото галерее для сохранения изображений.";
+"NSLocationWhenInUseUsageDescription" = "Это приложение требует доступ к вашему местоположению для предоставления персонализированных услуг на основе вашего местоположения.";
+"NSContactsUsageDescription" = "Это приложение требует доступ к вашим контактам для обмена информацией и общения с друзьями.";
+"NSBluetoothAlwaysUsageDescription" = "Это приложение требует доступ к Bluetooth для связи с внешними устройствами.";
+"NSMicrophoneUsageDescription" = "Это приложение требует доступ к микрофону для записи аудиосообщений.";
+"NSHealthShareUsageDescription" = "Это приложение требует доступ к вашим данным о здоровье для отслеживания и мониторинга вашей физической активности.";
+"NSHealthUpdateUsageDescription" = "Это приложение требует разрешения на обновление ваших данных о здоровье для поддержания точности записей о вашей активности.";
+"NSFaceIDUsageDescription" = "Для разблокировки приложения с помощью Face ID.";

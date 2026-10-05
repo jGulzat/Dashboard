@@ -1,0 +1,7 @@
+strings:
+  - inputs: ../../Sources/Core/Resources/ru.lproj/Localizable.strings
+    outputs:
+      - templatePath: ./strings.stencil
+        params:
+          enumName: DashboardStrings
+        output: ../../Sources/Core/Sources/Localization/DashboardStrings.swift
