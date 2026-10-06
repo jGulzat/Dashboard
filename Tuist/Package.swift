@@ -18,7 +18,6 @@ import PackageDescription
         "SnapKit",
         "ShimmerSwift",
         "_LottieStub",
-        //"IQKeyboardManagerSwift_IQKeyboardManagerSwift"
     ]
 
     let packageSettings = PackageSettings(

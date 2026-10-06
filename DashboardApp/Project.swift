@@ -12,7 +12,7 @@ let projectSettings = Settings.settings(
 )
 
 let project = Project(
-    name: dashboard.name,
+    name: "Dashboard",
     options: .options(
         defaultKnownRegions: ["ru", "ky"],
         developmentRegion: "ru"
@@ -20,7 +20,7 @@ let project = Project(
     settings: projectSettings,
     targets: [
         .target(
-            name: dashboard.name,
+            name: "Dashboard",
             destinations: .iOS,
             product: .app,
             bundleId: "$(PRODUCT_BUNDLE_IDENTIFIER)",
@@ -28,9 +28,7 @@ let project = Project(
             infoPlist: "Sources/Info.plist",
             sources: ["Sources/**"],
             resources: [
-                "Sources/Resources/Assets.xcassets",
-                "Sources/Resources/LaunchScreen.storyboard",
-                "Sources/Resources/*.lproj/**",
+                "Sources/Resources/**",
                 "Sources/GoogleService-Info.plist"
             ],
             scripts: [Scripts.swiftlint],
@@ -49,7 +47,11 @@ let project = Project(
         .scheme(
             name: dashboard.name,
             shared: true,
-            runAction: .runAction(executable: .target(dashboard.name))
+            buildAction: .buildAction(targets: [.target(dashboard.name)]),
+            runAction: .runAction(configuration: "Debug", executable: .target(dashboard.name)),
+            archiveAction: .archiveAction(configuration: "Release"),
+            profileAction: .profileAction(configuration: "Release", executable: .target(dashboard.name)),
+            analyzeAction: .analyzeAction(configuration: "Debug")
         )
     ],
     resourceSynthesizers: []

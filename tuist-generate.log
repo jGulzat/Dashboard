@@ -1,0 +1,32 @@
+Loading and constructing the graph
+It might take a while if the cache is empty
+Using cache binaries for the following targets: 
+Generating workspace Dashboard.xcworkspace
+Generating project IsoCountryCodes
+Generating project DashboardFlow
+Generating project IHProgressHUD
+Generating project WrapKit
+Generating project ShimmerSwift
+Generating project Dashboard
+Generating project DGCharts
+Generating project Kingfisher
+Generating project DashboardCore
+Generating project Lottie
+Generating project DesignSystem
+Generating project SnapKit
+Generating project DashboardAuth
+Generating project IQKeyboardManagerSwift
+Total time taken: 0.771s
+
+
+! Warning 
+
+  The following items may need attention: 
+   ▸ Target 'MyOAssets' has been linked from target 'DashboardCore' and target 'DesignSystem', it is a static product so may introduce unwanted side effects.
+   ▸ Target 'MyOAssets' has been linked from target 'DashboardFlow' and target 'DesignSystem', it is a static product so may introduce unwanted side effects.
+   ▸ Target 'MyOStrings' has been linked from target 'DashboardCore' and target 'DesignSystem', it is a static product so may introduce unwanted side effects.
+   ▸ Target 'MyOStrings' has been linked from target 'DashboardFlow' and target 'DesignSystem', it is a static product so may introduce unwanted side effects.
+
+
+✔ Success 
+  Project generated. 

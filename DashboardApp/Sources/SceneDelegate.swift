@@ -1,4 +1,5 @@
 import UIKit
+import DashboardCore
 
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
