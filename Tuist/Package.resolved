@@ -1,5 +1,5 @@
 {
-  "originHash" : "c4788301efef764dab53db1033f3bae8a58dddd1804e22c3762223817e9dd752",
+  "originHash" : "0c3b5d3e728ce4fa78aa99e6bd7b171a5948bbc3198ce9d43774525341c3a498",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -249,7 +249,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://gitlab.o.kg/ios/registrator.ios-application.git",
       "state" : {
-        "revision" : "33237ddc262ddb91f2ff89f473ee48b38755da18"
+        "revision" : "e0c7803374b8061bc15f0578d4c5a2eecafccb3d",
+        "version" : "2.1.57"
       }
     },
     {

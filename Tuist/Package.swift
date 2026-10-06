@@ -84,7 +84,7 @@ import PackageDescription
 let package = Package(
     name: "Dashboard",
     dependencies: [
-        .package(url: "https://gitlab.o.kg/ios/registrator.ios-application.git", revision: "33237ddc262ddb91f2ff89f473ee48b38755da18"),
+        .package(url: "https://gitlab.o.kg/ios/registrator.ios-application.git", exact: "2.1.57"),
         .package(url: "https://github.com/hackiftekhar/IQKeyboardManager.git", from: "7.1.1")
     ]
 )
